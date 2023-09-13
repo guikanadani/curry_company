@@ -7,7 +7,7 @@ st.set_page_config(
 )
 
 image_path = '/Users/Guilherme/'
-image = Image.open( image_path + 'profile.png')
+image = Image.open('profile.png')
 
 st.sidebar.image( image, width = 120)
 
